@@ -1,0 +1,15 @@
+.text {
+    text-align: center;
+    padding: 10px;
+}
+
+.text textarea {
+    width: 550px;
+    height: 350px;
+    font-size: 15px;
+}
+
+.text button {
+    width: 25%;
+    height: 50px;
+}
