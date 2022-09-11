@@ -1,0 +1,12 @@
+.item span {
+    padding: 5px;
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+}
+
+.search {
+    color: red;
+}
