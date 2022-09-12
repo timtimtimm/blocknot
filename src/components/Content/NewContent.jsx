@@ -10,11 +10,15 @@ const NewContent = () => {
 
     const setText = () => {
         const name = prompt('Заглавие для меню', '----');
-        dispatch(addContent({
-            name,
-            text: stateContent
-        }));
-        setStateContent('');
+        if(name !== null){
+            dispatch(addContent({
+                name,
+                text: stateContent
+            }));
+            setStateContent('');
+        }
+        
+       
     }
 
     return (
